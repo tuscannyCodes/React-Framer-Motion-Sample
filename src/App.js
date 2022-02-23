@@ -20,7 +20,7 @@ console.log(carousel.current)
       <motion.div ref={carousel}className="carousel">
         {/* this div is the actual moving div */}
         <motion.div  drag="x" 
-        dragConstraints={{right:0, left: -2500 }} className="inner-carousel">
+        dragConstraints={{right:0, left: -3150 }} className="inner-carousel">
           {images.map((image) => {
             return (
               <motion.div className="item" key={image}>
